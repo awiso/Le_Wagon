@@ -1,0 +1,58 @@
+/* Fonts and Colors */
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(20, 20, 20);
+    text-align: center;
+}
+
+/* Classes and Ids */
+.banner {
+    font-family: Courier, monospace;
+    text-align: center;
+    background-image: url("https://unsplash.it/1300/600?random");
+    background-size: cover;
+    padding: 150px;
+}
+
+.banner h1 {
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.banner h3 {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.cards {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    margin: 20px 0;
+    padding: 50px;
+    font-weight: lighter;
+}
+
+.card img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+}
+
+.footer a {
+    color: lightgrey;
+    font-size: 15px;
+  }
+
+  .footer a:hover {
+    color: white;
+  }
