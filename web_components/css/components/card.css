@@ -1,0 +1,43 @@
+.card {
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategray;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+
+.flex-item {
+    flex: 1 0 auto;
+}
+
+.card-top img{
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-bottom {
+    color: white;
+    height: 200px;
+    padding-left: 10px;
+    border-top: 3px solid rgb(85, 85, 85);
+}
+
+.card-bottom h2 {
+    font-family: 'Gugi', cursive;
+    font-weight: lighter;
+}
+
+.card-bottom h3 {
+    color: #cc3333;
+    font-family: 'Gugi', cursive;  
+}
+
+.card-bottom p {
+    color: white;
+    opacity: 0.6;
+    font-family: 'Gugi', cursive;  
+}
